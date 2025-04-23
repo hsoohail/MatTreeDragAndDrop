@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.spaces-tree {
+  cursor: url(https://ssl.gstatic.com/ui/v1/icons/mail/images/2/openhand.cur), default !important;
+}
+
+.spaces-tree.dragging {
+  cursor: url(https://ssl.gstatic.com/ui/v1/icons/mail/images/2/closedhand.cur), default !important;
+}
+
+.custom-placeholder.cdk-drag-placeholder {
+  background: #5ce1e6;
+  height: 5px;
+  opacity: 1;
+  border-radius: 0.5em;
+}
+
+.icon-btn {
+  cursor: pointer;
+}

@@ -19,6 +19,7 @@ yarn-error.log
 *.launch
 .settings/
 *.sublime-workspace
+.vs/MatTreeDragAndDrop/.vs
 
 # Visual Studio Code
 .vscode/*
